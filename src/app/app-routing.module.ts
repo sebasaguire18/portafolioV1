@@ -1,11 +1,19 @@
-import { NgModule } from '@angular/core';
+import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { PortafolioComponent } from './pages/portafolio/portafolio.component';
+import { AboutComponent } from './pages/about/about.component';
 
-const routes: Routes = [];
+const appRoutes: Routes = [
+  // la pagina de inicio al cargar la ruta
+  { path: '', component: PortafolioComponent},
+  { path: 'home', component : PortafolioComponent},
+  { path: 'portafolio', component : PortafolioComponent},
+  { path: 'about', component : AboutComponent},
+  // cuando falla la ruta
+  { path: '**', component: PortafolioComponent }
+];
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
+export const appRoutingProviders: any[] = [];
+
+export const routing: ModuleWithProviders =RouterModule.forRoot(appRoutes);
