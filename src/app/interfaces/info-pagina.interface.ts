@@ -8,3 +8,4 @@ export interface InfoPagina {
   instagram?:      string;
   equipo_trabajo?: any[];
 }
+
