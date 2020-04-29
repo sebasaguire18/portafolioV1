@@ -7,16 +7,20 @@ import { ItemComponent } from './pages/item/item.component';
 
 const routes: Routes = [
   // la pagina de inicio al cargar la ruta
-  { path: '', component: PortafolioComponent},
-  { path: 'portafolio', component : PortafolioComponent},
+  { path: 'home', component : PortafolioComponent},
   { path: 'about', component : AboutComponent},
   { path: 'item', component : ItemComponent},
-  // cuando falla la ruta
-  { path: '**', component: PortafolioComponent }
+  { path: 'item/:page', component: ItemComponent},
+  // cuando falla la ruta  
+  { path: '**', redirectTo: 'home' }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [
+    RouterModule.forRoot(routes, { useHash: true } )
+  ],
+  exports: [
+    RouterModule
+  ]
 })
 export class AppRoutingModule { }
