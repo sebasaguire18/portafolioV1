@@ -24,11 +24,13 @@ export class ProductosService {
       
       setTimeout(() => {
         this.cargando = false;
-      },300);
+      },500);
 
     });
+  } 
 
-
-
+  getProducto( id: string ){
+    return this.http.get(`https://portafolio-a42dd.firebaseio.com/productos/${ id }.json`);
   }
+
 }

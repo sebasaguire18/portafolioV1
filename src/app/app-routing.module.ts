@@ -9,8 +9,7 @@ const routes: Routes = [
   // la pagina de inicio al cargar la ruta
   { path: 'home', component : PortafolioComponent},
   { path: 'about', component : AboutComponent},
-  { path: 'item', component : ItemComponent},
-  { path: 'item/:page', component: ItemComponent},
+  { path: 'item/:id', component: ItemComponent},
   // cuando falla la ruta  
   { path: '**', redirectTo: 'home' }
 ];

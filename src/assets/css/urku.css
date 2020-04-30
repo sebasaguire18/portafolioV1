@@ -1319,7 +1319,10 @@ body {
 }
 
 .item-inside__meta {
+  background-color: rgba(255, 255, 255, .25);
   text-align: center;
+  width: 100%;
+  z-index: 1;
 }
 .item-inside__meta--contrast:before {
   background-color: rgba(255, 255, 255, .3);
@@ -1333,6 +1336,8 @@ body {
 }
 .item-inside__meta .rk-portfolio-title,
 .item-inside__meta .rk-portfolio-category {
+  padding-top: 2%;
+  width: 100%;
   position: relative;
   z-index: 2;
 }
@@ -1350,23 +1355,19 @@ body {
 }
 
 .item-inside-1 {
-  background-image: url("../img/project-1.jpg");
-  background-position: 50% 100%;
+  /* background-image: url("../img/project-1.jpg"); */
+  background-position: 50% 80%;
   background-size: 350%;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   .item-inside-1 {
-    background-image: url("../img/project-1h.jpg");
+    /* background-image: url("../img/project-1h.jpg"); */
   }
 }
 @media (min-width: 40em) {
   .item-inside-1 {
     background-size: 150%;
   }
-}
-
-.post-inside-1 {
-  background-image: url("../img/post-1.jpg");
 }
 
 #layout-grid:checked ~ .rk-portfolio,
