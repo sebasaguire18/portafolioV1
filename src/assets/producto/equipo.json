@@ -1,0 +1,21 @@
+{
+  "equipo" : [ {
+    "frase" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "instagram" : "sebasaguire18",
+    "nombre" : "Sebastián Aguirre Vallejo",
+    "subtitulo" : "Desarrollador de Software",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/portafolio-a42dd.appspot.com/o/team-1.jpg?alt=media&token=491066ac-265b-48cd-bdc0-85045d5e3c51"
+  }, {
+    "frase" : "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+    "instagram" : "angelinawidow",
+    "nombre" : "Angelina B. Widow",
+    "subtitulo" : "Fundadora / CEO",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/portafolio-a42dd.appspot.com/o/team-2.jpg?alt=media&token=6f8cafec-d54c-4d9c-96fd-f94735b1ab08"
+  }, {
+    "frase" : "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "instagram" : "patrickanderson",
+    "nombre" : "Patrick Anderson",
+    "subtitulo" : "Director De Arte",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/portafolio-a42dd.appspot.com/o/team-3.jpg?alt=media&token=31c47f04-46fa-4b8a-aef7-a83fc44bc7fc"
+  } ]
+}
