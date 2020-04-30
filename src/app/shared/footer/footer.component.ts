@@ -6,13 +6,13 @@ import { InfoPaginaService } from 'src/app/services/info-pagina.service';
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css']
 })
-export class FooterComponent implements OnInit {
+export class FooterComponent {
 
   public anio:number = new Date().getFullYear();
 
-  constructor(public _servicio: InfoPaginaService) { }
+  constructor(public _servicio: InfoPaginaService) {
 
-  ngOnInit(): void {
   }
-
+  ngOnInit() {
+  }
 }

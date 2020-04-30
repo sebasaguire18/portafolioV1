@@ -44,3 +44,20 @@
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+
+
+
+
+/*
+  Color del Loading
+*/
+.loadingPropio{
+  text-align:center;
+}
+svg path,
+svg rect{
+  fill: black;
+}
+/*
+  Fin Color del Loading
+*/
